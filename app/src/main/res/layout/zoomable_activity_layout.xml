@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zoomable_Activity"
+    android:id="@+id/contentView">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/detail_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
